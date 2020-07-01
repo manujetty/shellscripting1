@@ -1,6 +1,6 @@
 PRINT(){
-  read -p "ENTER YOUR NAME:"NAME
-  echo NAME
+  read -p "ENTER YOUR NAME:"n
+  echo $n
 }
 
 PRINT
