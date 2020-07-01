@@ -1,5 +1,5 @@
 PRINT(){
-  read name "ENTER YOUR NAME:"
+  echo "ENTER YOUR NAME:";read name
   echo $name
 
 }
