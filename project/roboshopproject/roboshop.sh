@@ -30,4 +30,5 @@ fi
 
 for component in ${INSTALL_COMPONENT} ; do
   PRINT "SETUP ${component}"
+  sh $component.sh
 done
