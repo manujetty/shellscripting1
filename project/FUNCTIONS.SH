@@ -3,4 +3,4 @@ PRINT(){
   echo $n
 }
 
-PRINT
+PRINT 'the name of the student is '
