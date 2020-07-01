@@ -1,6 +1,6 @@
 PRINT(){
   echo "ENTER YOUR NAME:";read name
-  echo $name
+  echo "the student name is $name"
 
 }
 
