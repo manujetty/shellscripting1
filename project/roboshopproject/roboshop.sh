@@ -31,5 +31,5 @@ fi
 
 for component in ${INSTALL_COMPONENT} ; do
   PRINT "SETUP ${component}"
-  sh $component.sh
+  sh $(dirname $0)/$component.sh
 done
