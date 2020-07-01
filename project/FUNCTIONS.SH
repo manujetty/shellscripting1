@@ -1,6 +1,6 @@
 PRINT(){
   studentname= read -p "ENTER YOUR NAME:"
-  echo $studentname
+  echo studentname
 }
 
 PRINT 'name of the student'
